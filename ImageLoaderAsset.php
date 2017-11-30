@@ -10,7 +10,6 @@ use yii\web\AssetBundle;
 class ImageLoaderAsset extends AssetBundle
 {
     public $sourcePath = '@vendor/xj/yii2-jquery-imageloader/assets';
-    public $basePath = '@webroot/assets';
     public $js = [
         'jquery.imageloader.js',
     ];
